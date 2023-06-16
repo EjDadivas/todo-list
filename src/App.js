@@ -13,7 +13,7 @@ function App() {
   return (
     <>
    
-    <Container className="my-4">
+    <Container className="min-vh-100">
     {/* <Navbar expand="lg" bg="dark" variant="dark">
     <Container><Navbar.Brand className="">Todo List App</Navbar.Brand></Container>
     </Navbar> */}
@@ -56,7 +56,7 @@ function App() {
     todoListId={showDeleteListModalTodoListId}
     handleClose={()=>setShowDeleteListModalTodoListId()}
     />
-   <footer className="text-center bottom">
+   <footer className="text-center">
    <a class="text-dark link" href="https://ej-d.vercel.app/">© 2022 Copyright:
       EJD</a>
    </footer>
